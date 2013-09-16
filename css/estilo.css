@@ -1,0 +1,95 @@
+
+// a.email[href^=mailto] { direction: rtl; unicode-bidi:bidi-override; } 
+
+
+.navlinks {}
+
+.navlinks-prev {
+    float: left;
+}
+
+.navlinks-next {
+    float: right;
+}
+
+
+img {
+display: block;
+margin: auto;
+}
+
+img.icon {
+  width: 64px;
+  border-radius(8px);
+  float: left;
+  margin: 0 20px 4px 0;
+  }
+
+.centrar-imagen {
+text-align: center; 
+}
+
+
+#post.titulo {
+text-align: center; 
+}
+
+h1.titulo {font-size: 1.75em;}
+h2.titulo {font-size: 1.50em;}
+.post-contenido h1 {font-size: 1.75em;}
+
+@media (min-width: 768px) {
+	body {
+	 width: 724px;
+	 text-align: center;
+	 margin: 0 auto;
+ }
+
+	.container {
+	 width: 724px;
+	 text-align: left;
+	 
+ }
+ 
+	footer {
+	 text-align: center;
+	 margin: 0 auto;
+ }
+ 
+.span12 {
+  width: 724px;
+}
+.span11 {
+  width: 662px;
+}
+.span10 {
+  width: 600px;
+}
+.span9 {
+  width: 538px;
+}
+.span8 {
+  width: 476px;
+}
+.span7 {
+  width: 414px;
+}
+.span6 {
+  width: 352px;
+}
+.span5 {
+  width: 290px;
+}
+.span4 {
+  width: 228px;
+}
+.span3 {
+  width: 166px;
+}
+.span2 {
+  width: 104px;
+}
+.span1 {
+  width: 42px;
+}
+}

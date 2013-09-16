@@ -1,0 +1,10 @@
+- fotos = ( document.fotos || ['pereaikido.jpg'])
+
+#carrusel.carousel.slide
+	.carousel-inner
+		each foto, i in fotos
+			- iFoto = '/images/' + foto
+			- cssname = ( i === 0) ? 'item active' : 'item'
+			- item = '#item_' + i
+			div( class=cssname, id=item)
+				img( src=iFoto, alt= "") 
